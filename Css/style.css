@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family= Chivo+Mono:wght@200 & display família= Chivo+Mono:wght@200;400;600;700 & swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} /*Resetar o que já estava como padrão*/
+
+
+/*Tags*/
+header{
+    background-image:url(/Imagens/inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 240px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-inline: 30px;
+}
+
+button{
+    background: transparent;
+    border:none;
+    cursor:pointer;
+}
+
+span{
+    color: black;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    background-color: rgb(250, 193, 172);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Classes*/
+.back-img{
+    background-image: url(/Imagens/Rectangle\ 2\(2\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vw;
+    width:100vw;
+}
+
+.back{
+    background-color: rgb(197, 255, 236);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vw;
+    width:100vw;
+}
+
+.spacing-icons{
+   display: flex;
+   gap: 50px; 
+}
+
+.material-icons.md-60 { 
+    font-size: 60px;
+}
+
+.material-icons.md-36 {
+     font-size: 36px; 
+    }
+
+.featline{
+    background-color: rgb(250, 193, 172);
+    background-position: center;
+    background-size: cover;
+    padding-inline: 50px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.space-iten{
+    display: flex;
+    gap: 40px;
+}
+
+.space-pag{
+    padding-top: 120px;
+    padding-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+}
